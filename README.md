@@ -6,11 +6,11 @@ A p5.js interactive project on history of music.
 
 ### Project Link: https://mstxy.github.io/Music-Treadmill/
 
-!(cover)[img/ss1.png]
+![cover](img/ss1.png)
 
 My Project – **Music Treadmill** actually follows the name Cosmic Treadmill, a thing used by the Flash to travel through time, which its function is similar to my idea – explore music of different times. Originally, I just wanted to use p5 to create a scene of various elements moving, interacting that give viewers a huge visual impact. Then I decided to embed some more ideas into it, so I chose the development of music to incorporate into the scene. In my project, the view will go through the Music Treadmill to explore the music of different times, different genre and in the end the viewer will have a chance to play all the music together and imagine what the future music will be like with an audio visualizer appearing on the scene.
 
-!(main_interface)[img/ss2.png]
+![main_interface](img/ss2.png)
 
   
 
@@ -25,7 +25,7 @@ So, I used p5 to create a lot of geometric shapes, and use a lot of variables an
 7. One rectangle on the top-left could change its height according to one specific music’s amplitude;
 8. The audio visualizer in the end could response to mouse position and the music bass, alto and treble.
 
-!(main_interface)[img/ss2.png]
+![main_interface](img/ss2.png)
 
   
 
