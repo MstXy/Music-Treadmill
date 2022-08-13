@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internet Art</title>
+    <!-- This is very important -->
+    <style> body {padding: 0; margin: 0;} </style>
+
+    <script src="https://cdn.jsdelivr.net/npm/p5@0.10.2/lib/p5.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/p5@0.10.2/lib/addons/p5.sound.js"></script>
+
+    <script src="js/sketch.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+
+    <div id='myContainer1'></div>
+
+    <div id="wordsSupply">
+      <p>Music of Different Times</p>
+    </div>
+
+    <div id="titleSupply">
+      <p id="t1">Music Treadmill</p>
+      <p id="t2">Designed by William Zhang</p>
+    </div>
+    <div class="description" id="audio11D">
+      <p class="year"><b>1940s</b></p>
+      <p class="name">Sidney Bechet - </p>
+      <p class="song"><i>Egyptian Fantasy</i><br>[Jazz]</p>
+    </div>
+    <div class="description" id="audio12D">
+      <p class="year"><b>1960s</b></p>
+      <p class="name">Bob Dylan - </p>
+      <p class="song"><i>Blowin' in the Wind</i><br>[Folk]</p>
+    </div>
+    <div class="description" id="audio13D">
+      <p class="year"><b>1700s</b></p>
+      <p class="name">J. Sebastian Bach - </p>
+      <p class="song"><i>The Goldberg Variations, <br>BWV 988</i> [Baroque]</p>
+    </div>
+    <div class="description" id="audio14D">
+      <p class="year"><b>2000s</b></p>
+      <p class="name">Eminem - </p>
+      <p class="song"><i>Lose Yourself, 8 Miles</i><br>[Hip-hop]</p>
+    </div>
+    <div class="description" id="audio15D">
+      <p class="year"><b>1980s</b></p>
+      <p class="name">Queen - </p>
+      <p class="song"><i>Radio Ga Ga, The Works</i><br>[Rock]</p>
+    </div>
+    <div class="description" id="audio16D">
+      <p class="year"><b>2018</b></p>
+      <p class="name">Superorganism - </p>
+      <p class="song"><i>Something for your M.I.N.D.</i><br>[Electronica]</p>
+    </div>
+    <div class="description" id="audio17D">
+      <p class="year"><b>2011</b></p>
+      <p class="name">Skrillex - </p>
+      <p class="song"><i>Kyoto, Bangarang </i><br>[EDM]</p>
+    </div>
+
+    <div class="finalWords" id="finalWords1">
+      <p id="f1" class="finalP">1700s, 1940s, 1960s, 1980s, 2000s, 2010s.</p>
+    </div>
+    <div class="finalWords" id="finalWords2">
+      <p id="f2" class="finalP">Baroque, Jazz, Folk, Rock, Hip-Hop, EDM, Electronica.</p>
+    </div>
+    <div class="finalWords" id="finalWords3">
+      <p id="f3" class="finalP">There are HUNDREDS of music genre,</p>
+    </div>
+    <div class="finalWords" id="finalWords4">
+      <p id="f4" class="finalP">and Time Never Stops.</p>
+    </div>
+    <div class="finalWords" id="finalWords5">
+      <p id="f5" class="finalP">What will the music of 2020s be?</p>
+    </div>
+    <div class="finalWords" id="finalWords6">
+      <p id="f6" class="finalP">2030?</p>
+    </div>
+    <div class="finalWords" id="finalWords7">
+      <p id="f7" class="finalP">2077?</p>
+    </div>
+    <div class="finalWords" id="finalWords8">
+      <p id="f8" class="finalP">2100?</p>
+    </div>
+    <div class="finalWords" id="finalWords9">
+      <p id="f9" class="finalP">Could be anything.</p>
+    </div>
+    <div class="finalWords" id="finalWords10">
+      <p id="f10" class="finalP">IMAGINE——</p>
+    </div>
+    <div class="finalWords" id="finalWords11">
+      <p id="f11" class="finalP">And See What Happens.</p>
+    </div>
+
+    <div class="finalWords" id="refreshBtn" onclick="pageRefresh()">
+      <p>Press to<br>Start Again.</p>
+    </div>
+
+  </body>
+</html>

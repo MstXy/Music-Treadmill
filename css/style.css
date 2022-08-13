@@ -1,0 +1,150 @@
+body {
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+#myContainer1 {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+#title {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 100px;
+  font-family: Futura;
+  color: black;
+  margin: 0;
+}
+
+.description {
+  position: absolute;
+  font-family: Futura;
+  color: Black;
+  background-color: white;
+  border: 5px black solid;
+  z-index: 5;
+  padding: 8px;
+}
+.year {
+  font-size: 60px;
+  margin: 0;
+}
+.name {
+  font-size: 40px;
+  margin: 0;
+}
+.song {
+  font-size: 30px;
+  margin: 0;
+}
+#audio11D {
+  display: none;
+  left: 2%;
+  top: 40%;
+}
+#audio12D {
+  display: none;
+  right: 1%;
+  top: 25%;
+}
+#audio13D {
+  display: none;
+  left: 40%;
+  top: 72%;
+}
+#audio14D {
+  display: none;
+  left: 1%;
+  top: 40%;
+}
+#audio15D {
+  display: none;
+  left: 40%;
+  top: 72%;
+}
+#audio16D {
+  display: none;
+  left: 40%;
+  top: 72%;
+}
+#audio17D {
+  display: none;
+  left: 2%;
+  top: 40%;
+}
+
+#wordsSupply {
+  position: absolute;
+  font-family: Futura;
+  color: Black;
+  background-color: white;
+  border: 5px black solid;
+  z-index: 5;
+  padding: 8px;
+  font-size: 40px;
+  top: 2%;
+  left: 47%;
+  margin: 0;
+  display: none;
+}
+p {
+  margin: 0;
+}
+
+#titleSupply {
+  position: absolute;
+  color: black;
+  background-color: white;
+  border: 5px black solid;
+  z-index: 5;
+  padding: 8px;
+  right: -5%;
+  transform: rotate(90deg);
+  margin: 0;
+  top: 70%;
+  display: none;
+}
+#t1 {
+  font-family: WOX-Striped Triple Demo;
+  font-size: 50px;
+}
+#t2 {
+  font-family: Futura;
+  font-size: 20px;
+  text-align: right;
+}
+
+.finalWords {
+  transform: translate(0, -50%);
+  position: absolute;
+  font-family: Futura;
+  color: black;
+  background-color: white;
+  border: 5px black solid;
+  z-index: 5;
+  padding: 30px;
+  margin: 0;
+  left: 1%;
+  top: 50%;
+  width: 20%;
+  font-size: 50px;
+  text-align: center;
+  display: none;
+}
+
+.finalP {
+  margin: 5px;
+}
+#refreshBtn {
+  color: darkblue;
+  animation: blink 1s 3 steps(1);
+}
+@keyframes blink{
+  50% {color: transparent;}
+}
+#refreshBtn:hover {
+  cursor: pointer;
+}

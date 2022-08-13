@@ -1,0 +1,36 @@
+1700s Johann Sebastian Bach - The Goldberg Variations, BWV 988 (1741)[Baroque]    1
+
+1940s Sidney Bechet - Egyptian Fantasy, Limehouse Blues (1941)[Jazz] 2
+
+1960s Bob Dylan - Blowin' in the Wind, The Freewheelin' Bob Dylan (1963)[Folk] 3
+
+1980s Queen - Radio Ga Ga, The Works (1984)[Rock] 5
+
+2000s Eminem - Lose Yourself, 8 Miles (2002)[Hip-Hop] 6
+
+2010s Skrillex - Kyoto, Bangarang (2011)[EDM]  7
+
+2010s Superorganism - Something for your M.I.N.D., Radio Costes #1 (2018)[Electronica] 4
+
+
+var circle1Variable = 0.005;  		0.02
+var circle2Variable1 = 0.5;		5
+var circle2Variable2 = 0.005;		0.05
+var circle3Variable = 0.005;		0.02
+var circle4Variable = 0.5;		2
+var circle5Variable = 1;		2.5
+var movingLine1Variable = 0.002;  0.02
+var movingPointVariable = 0.002;	0.02
+var circle7Variable = 200;		50
+var particleVariable = 40;		10
+var flockSpeedVariable = 1;		5
+var flockSteerVariable = 0.05;		0.5
+
+  audio11 = loadSound("audio/Jazz.mp3", soundLoaded);
+  audio12 = loadSound("audio/Bob.mp3", soundLoaded);
+  audio13 = loadSound("audio/Bach.mp3", soundLoaded);
+  audio14 = loadSound("audio/Em.mp3", soundLoaded);
+  audio15 = loadSound("audio/Queen.mp3", soundLoaded);
+  audio16 = loadSound("audio/Mind.mp3", soundLoaded);
+  audio17 = loadSound("audio/Sk.mp3", soundLoaded);
+  audio00 = loadSound("audio/BGM.mp3", soundLoaded);
