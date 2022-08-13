@@ -25,7 +25,7 @@ So, I used p5 to create a lot of geometric shapes, and use a lot of variables an
 7. One rectangle on the top-left could change its height according to one specific music’s amplitude;
 8. The audio visualizer in the end could response to mouse position and the music bass, alto and treble.
 
-![main_interface](img/ss2.png)
+![main_interface](img/ss3.png)
 
   
 
